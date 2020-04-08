@@ -1,0 +1,97 @@
+.contenedor_general{
+    background-image: url(imagenes/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 930px
+}
+
+.header{
+    display: flex;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.h1_header{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 2.5em;
+    color: azure;
+    margin-left: 1%
+}
+
+.nav{
+    font-family: 'Roboto Slab', serif;
+    font-size: 90%;
+    margin-left: 50%;
+    margin-top: 35px;
+}
+
+.link_nav{
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.link_nav:link{
+    color: azure;
+}
+.link_nav:visited{
+    color: azure;
+}
+
+.link_nav:hover{
+    color: lightyellow;
+    text-decoration-line:underline;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+
+.button_left{
+    background: none;
+    background-image: url(imagenes/left.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 80px;
+    height: 80px;
+    margin-top: 299px;
+    margin-right: auto;
+    margin-bottom: 150px;
+    
+}
+
+.button_right{
+    background: none;
+    background-image: url(imagenes/right.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 80px;
+    height: 80px;
+    margin-top: 299px;
+    margin-left: auto;
+    margin-bottom: 150px;
+}
+
+.h1_body{
+    font-family: 'Roboto Slab', serif;
+    font-size: 4.8em;
+    margin-top: 290px;
+    color: dimgrey;
+    margin-bottom: 150px;
+}
+
+.columna-50{
+    background: none;
+    border-style: none;
+    margin: auto 30px;
+    background-color: forestgreen;
+    width: 35%;
+    height: 40px;
+    color: azure;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.2em;
+}
